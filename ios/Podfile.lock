@@ -1,0 +1,55 @@
+PODS:
+  - Applozic (6.17.1):
+    - SDWebImage (~> 5.1.0)
+  - ApplozicSwift (4.0.1):
+    - ApplozicSwift/Complete (= 4.0.1)
+  - ApplozicSwift/Complete (4.0.1):
+    - Applozic (~> 6.17.0)
+    - ApplozicSwift/RichMessageKit
+    - Kingfisher (~> 5.7.0)
+    - MGSwipeTableCell (~> 1.6.9)
+  - ApplozicSwift/RichMessageKit (4.0.1)
+  - Flutter (1.0.0)
+  - Kingfisher (5.7.1)
+  - Kommunicate (3.0.0):
+    - ApplozicSwift (~> 4.0.0)
+  - kommunicate_flutter_plugin (0.0.1):
+    - Flutter
+    - Kommunicate (~> 3.0.0)
+  - MGSwipeTableCell (1.6.11)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - kommunicate_flutter_plugin (from `.symlinks/plugins/kommunicate_flutter_plugin/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Applozic
+    - ApplozicSwift
+    - Kingfisher
+    - Kommunicate
+    - MGSwipeTableCell
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  kommunicate_flutter_plugin:
+    :path: ".symlinks/plugins/kommunicate_flutter_plugin/ios"
+
+SPEC CHECKSUMS:
+  Applozic: 222715a22ca0f8048390067ad3e44e80c78d096d
+  ApplozicSwift: 75effb6ac41c4792912acca935b4990b473adc6f
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  Kommunicate: 590c4faedce14cdee61c9ae551e19cdcde40f80e
+  kommunicate_flutter_plugin: d20acba36c3c7ef5f8397bca4910d15d7f05aebe
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+
+PODFILE CHECKSUM: 580387274c138d07bd58402e51c8b006c95dca5e
+
+COCOAPODS: 1.7.5
