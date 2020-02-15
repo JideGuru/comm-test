@@ -21,6 +21,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   kommunicate_flutter_plugin: ^0.0.2
+#  flutter_freshchat: ^1.2.6
 
 dev_dependencies:
   flutter_test:

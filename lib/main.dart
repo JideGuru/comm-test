@@ -50,36 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-
-//  Future<dynamic> openSupportChat() async {
-//    try {
-//      dynamic user = {
-//        'userId' : 'reytum',
-//        'password': 'reytum'
-//      };
-//      dynamic convObject = {
-//        'appId': '22823b4a764f9944ad7913ddb3e43cae1',
-//        'kmUser': jsonEncode(user)
-//      };
-//      dynamic result =
-//      await KommunicateFlutterPlugin.buildConversation(convObject);
-//
-//      dynamic chatContext = {
-//        'key': 'value',
-//        'objKey': {
-//          'objKey1' : 'objValue1',
-//          'objKey2' : 'objValue2'
-//        }
-//      };
-//
-//      KommunicateFlutterPlugin.updateChatContext(chatContext);
-//
-//      print("Conversation builder success : " + result.toString());
-//    } on Exception catch (e) {
-//      print("Conversation builder error occurred : " + e.toString());
-//    }
-//  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
