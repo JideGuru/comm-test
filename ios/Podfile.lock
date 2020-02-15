@@ -10,6 +10,8 @@ PODS:
     - MGSwipeTableCell (~> 1.6.9)
   - ApplozicSwift/RichMessageKit (4.0.1)
   - Flutter (1.0.0)
+  - flutter_freshchat (0.0.4):
+    - Flutter
   - Kingfisher (5.7.1)
   - Kommunicate (3.0.0):
     - ApplozicSwift (~> 4.0.0)
@@ -23,6 +25,7 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_freshchat (from `.symlinks/plugins/flutter_freshchat/ios`)
   - kommunicate_flutter_plugin (from `.symlinks/plugins/kommunicate_flutter_plugin/ios`)
 
 SPEC REPOS:
@@ -37,6 +40,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_freshchat:
+    :path: ".symlinks/plugins/flutter_freshchat/ios"
   kommunicate_flutter_plugin:
     :path: ".symlinks/plugins/kommunicate_flutter_plugin/ios"
 
@@ -44,6 +49,7 @@ SPEC CHECKSUMS:
   Applozic: 222715a22ca0f8048390067ad3e44e80c78d096d
   ApplozicSwift: 75effb6ac41c4792912acca935b4990b473adc6f
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_freshchat: 8665279b02ddbb2253fb30a0e039ff511aff66ac
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
   Kommunicate: 590c4faedce14cdee61c9ae551e19cdcde40f80e
   kommunicate_flutter_plugin: d20acba36c3c7ef5f8397bca4910d15d7f05aebe
